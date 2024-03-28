@@ -67,7 +67,7 @@
 .navbar .dropdown-toggle::after {
   border: none;
   content: "\f107";
-  font-family: "Font Awesome 3 Free";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   vertical-align: middle;
   margin-left: 8px;
@@ -132,7 +132,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 
@@ -178,8 +178,8 @@
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../Images/image\ 33.png) center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/carousel-1.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -303,7 +303,7 @@
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 6px;
   opacity: 0;
   transition: 0.5s;
@@ -451,7 +451,7 @@
 .footer .btn.btn-link::before {
   position: relative;
   content: "\f105";
-  font-family: "Font Awesome 3 Free";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   color: var(--secondary);
   margin-right: 10px;
